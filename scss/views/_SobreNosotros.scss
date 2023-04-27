@@ -1,0 +1,60 @@
+#gym-info {
+    background-image: url("../assets/background.png");
+    background-position: center;
+    background-size: cover;
+    height: 95vh;
+    padding: 50px;
+    text-align: center;
+    color: $color-letras;
+  }
+  
+  #gym-info h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+  }
+  
+  #gym-info p {
+    font-size: 1.2em;
+    line-height: 1.5em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+  
+  #gym-info ul {
+    list-style: none;
+    margin-bottom: 30px;
+    padding-left: 0;
+  }
+  
+  #gym-info li {
+    font-size: 1.1em;
+    line-height: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  #gym-info li:before {
+    content: "✔ ";
+    color: #22a6b3;
+    font-size: 1.2em;
+    margin-right: 5px;
+  }
+  
+  #gym-info p:last-child {
+    font-weight: bold;
+    font-size: 1.1em;
+  }
+
+
+.instalaciones{
+  background-color:#222;
+  text-align: center;
+  align-content: center;
+  h2{
+    font-size: 3rem;
+    color: $color-letras;
+    background-color:#222;
+  }
+}

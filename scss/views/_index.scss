@@ -1,0 +1,28 @@
+.hero {
+    background-image: url("../assets/risen-wang-20jX9b35r_M-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.hero {
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    text-shadow: 1px 1px #000000;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 4em;
+    color: #333;
+    opacity: 0;
+    transform: translateY(50%);
+    transition: opacity 1s, transform 1s;
+}
+.titulo.active {
+    opacity: 1;
+    transform: translateY(0);
+}

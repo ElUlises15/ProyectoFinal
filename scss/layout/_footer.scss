@@ -1,0 +1,36 @@
+footer {
+    background-color: #222;
+    color: white;
+    padding: 20px 0;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.columna {
+    flex-basis: 30%;
+    text-align: center;
+}
+.columna h3 {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+.columna ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.columna ul li {
+    margin-bottom: 0.5em;
+}
+.columna ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo-footer{
+    border-radius: 50%;
+    width: 5rem;
+}

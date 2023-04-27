@@ -1,0 +1,37 @@
+header{
+    background-color: $color-header;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    font-size: 1rem;
+}
+
+.logo{
+    max-width: 5rem;
+    border-radius: 50%;
+}
+
+.nav-list{
+    list-style-type: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: $color-letras;
+    font-size: 1.5rem;
+}
+.nav-list li a:hover{
+    color: #635985;
+}
+
+
+.abrir-menu,
+.cerrar-menu{
+    display: none;
+}
