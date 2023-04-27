@@ -1,4 +1,4 @@
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 1440px) {
         /*General*/
         *{
             padding: 0;
@@ -21,11 +21,11 @@
         padding-right: 1rem;
         padding-top: 0.3rem;
         padding-bottom: 0.3rem;
-        font-size: 1rem;
+        font-size: 2rem;
     }
     
     .logo{
-        max-width: 3rem;
+        max-width: 5rem;
         border-radius: 50%;
     }
     
@@ -68,7 +68,7 @@
 
 .titulo {
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 4em;
     color: #333;
     opacity: 0;
     transform: translateY(50%);
@@ -121,20 +121,20 @@
         background-image: url("../assets/background.png");
         background-position: center;
         background-size: cover;
-        height: 95vh;
-        padding: 1rem;
+        height: 110vh;
+        padding: 50px;
         text-align: center;
         color: $color-letras;
       }
       
       #gym-info h2 {
-          font-size: 2em;
+          font-size: 4em;
         margin-bottom: 20px;
         text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
     }
     
       #gym-info p {
-          font-size: 1.2em;
+          font-size: 2em;
           line-height: 1.5em;
           margin-bottom: 20px;
           text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
@@ -149,7 +149,7 @@
     }
     
     #gym-info li {
-        font-size: 1em;
+        font-size: 1.5em;
         line-height: 1.5em;
         margin-bottom: 10px;
     }
@@ -163,7 +163,7 @@
     
     #gym-info p:last-child {
         font-weight: bold;
-        font-size: 1.1em;
+        font-size: 1.7em;
     }
     
     
@@ -172,14 +172,14 @@
       text-align: center;
       align-content: center;
       h2{
-        font-size: 2rem;
+        font-size: 3rem;
         color: $color-letras;
         background-color:#222;
     }
     }
     /*Planes*/
     .fondo-planes{
-        background-image: url("../assets/fitnes/background-phone.jpg");
+        background-image: url("../assets/background.png");
         background-position: center;
         background-size: cover;
         height: 100%;
@@ -191,25 +191,24 @@
         text-align: center;
         line-height: 2;
         h2{
-            font-size: 2rem;
+            font-size: 3rem;
         }
         p{
-            font-size: 1.2rem;
+            font-size: 1.5rem;
         }
         padding: 2rem;
     }
     .container-card{
         width: 100%;
         display: flex;
-        flex-direction: column;
-        max-width: 99vw;
-        align-items: center;
-        padding: 1rem;
+        max-width: 1400px;
+        justify-content:space-around;
+        padding: 2rem;
     }
     
     .card{
         width: 70%;
-        height: 50vh;
+        height: 60vh;
         margin: 20px;
         border-radius: 6px;
         overflow: hidden;
@@ -224,8 +223,8 @@
         transform: translateY(-3%);
     }
     .img-card{
-        width: 25rem;
-        height: 10rem;
+        width: 27rem;
+        height: 15rem;
     }
     .container-card{
         padding: 15px;
@@ -234,11 +233,13 @@
         p{
             line-height: 1.5;
             color: #6a6a6a;
+            font-size: 1rem;
         }
         h3{
             font-weight: 400;
             margin-bottom: 15px;
             color: black;
+            font-size: 2rem;
         }
         a{
             text-decoration: none;
@@ -250,6 +251,7 @@
             border-radius: 4px;
             transition: all 400ms ease;
             box-sizing:inherit;
+            font-size: 1.3rem;
         }
         a:hover{
             background-color: $color-header;
@@ -259,7 +261,7 @@
     }
     /*Contactanos*/
     .fondo-contactos{
-        background-image: url("../assets/fitnes/background-phone.jpg");
+        background-image: url("../assets/background.png");
         background-position: center;
         background-size: cover;
         height: 100%;
@@ -271,29 +273,27 @@
         text-align: center;
         line-height: 2;
         h2{
-            font-size: 2rem;
+            font-size: 3rem;
         }
         p{
-            font-size: 1.2rem;
+            font-size: 1.5rem;
         }
         padding: 2rem;
     }
     .container-red{
         width: 100%;
         display: flex;
-        max-width: 99vw;
+        max-width: 1900px;
         justify-content:space-evenly;
         padding: 2rem;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
     }
     
     .card-red{
-        width: 25vw;
-        height: 45vh;
+        width: 18vw;
+        height: 60vh;
         margin: 20px;
         border-radius: 6px;
+        overflow: hidden;
         background-color: $color-header;
         box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
         cursor: default;
@@ -306,7 +306,7 @@
     }
     .img-red{
         width: 100%;
-        height: 5rem;
+        height: 15rem;
     }
     .container-red{
         padding: 15px;
@@ -315,12 +315,13 @@
         p{
             line-height: 1.5;
             color: #6a6a6a;
+            font-size: 1rem;
         }
         h3{
             font-weight: 400;
             margin-bottom: 15px;
             color: $color-letras;
-            font-size: 1.5rem;
+            font-size: 3rem;
         }
         a{
             text-decoration: none;
@@ -332,6 +333,7 @@
             border-radius: 4px;
             transition: all 400ms ease;
             box-sizing:inherit;
+            font-size: 1rem;
         }
         a:hover{
             background-color: $color-letras;
@@ -341,30 +343,30 @@
     }
     /*Tienda*/
     .fondo-grid{
-        background-image: url("../assets/fitnes/background-phone.jpg");
+        background-image: url("../assets/background.png");
         background-position: center;
         background-size: cover;
-        height: 300vh;
+        height: 90vh;
         width: 100%;
         padding: 5px;
         text-align: center;
         color: black;
     }
     .Grid-tienda{
-        padding:1rem;
+        padding:3rem 5rem 3rem 5rem;
         justify-content: center;
-        width: 99vw;
+        width: 95vw;
         display: grid;
-        grid-template: repeat(4,70vh) / repeat(1,20vh);
-        column-gap: 1rem;
+        grid-template: repeat(1,70vh) / repeat(4,20vh);
+        column-gap: 10rem;
         row-gap: 0;
     }
     .articuloVenta{
         border-top:0 ;
         padding-top: 0;
         margin-top: 0;
-        height: 10rem;
-        width: 100%;
+        height: 15rem;
+        width: 15rem;
         border-radius: 5%;
         
     }
@@ -374,69 +376,33 @@
     }
     .CardArticulo{
         background-color: $color-header;
-        height: 30rem;
-        width: 15rem;
+        height: 40rem;
+        width: 17rem;
         display: grid;
         place-items: center;
         text-align: center;
         border-radius: 0;
+        h2{
+            font-size: 2rem;
+            color: $color-letras;
+        }
+        p{
+            font-size: 1rem;
+            color: $color-letras;
+        }
+        a{
+            font-size: 2rem;
+        }
     }
     .boton-compra{
         text-decoration: none;
         color: $color-letras;
-        border: 2px solid $color-letras;
-        padding: 1rem;
+        border: 1px solid $color-letras;
+        padding: 0.5rem;
     }
     
     .boton-compra:hover{
         color: $color-letras;
         background-color: black;
-    }
-    /*Menu Hamburguesa*/
-    .abrir-menu,
-    .cerrar-menu{
-        display: block;
-        border: 0;
-        font-size: 1.25rem;
-        background-color: transparent;
-        cursor: pointer;
-    }
-
-    .abrir-menu{
-        color: $color-letras;
-        width: 3rem;
-    }
-
-    .cerrar-menu{
-        color: $color-letras;
-    }
-    
-    .nav{
-        opacity: 0;
-        visibility: hidden;
-        
-        display: flex;
-        flex-direction: column;
-        align-items: end;
-        gap: 1rem;
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        border: solid #000 1px;
-        padding: 2rem;
-        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
-        background-color: #1c1c1c;
-
-    }
-
-    .nav.visible{
-        opacity: 1;
-        visibility: visible;
-    }
-
-    .nav-list{
-        flex-direction: column;
-        align-items: end;
     }
 }
