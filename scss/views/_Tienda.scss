@@ -2,27 +2,25 @@
     background-image: url("../assets/background.png");
     background-position: center;
     background-size: cover;
-    height: 90vh;
+    height: 130vh;
     width: 100%;
     padding: 5px;
     text-align: center;
-    color: black;
+    color: $color-letras;
+    align-content: center;
 }
 .Grid-tienda{
-    padding:3rem 5rem 3rem 5rem;
+    padding:1rem;
     justify-content: center;
     width: 95vw;
     display: grid;
-    grid-template: repeat(1,70vh) / repeat(4,20vh);
-    column-gap: 10rem;
+    grid-template: repeat(2,70vh) / repeat(2,20vh);
+    column-gap: 15vw;
     row-gap: 0;
 }
 .articuloVenta{
-    border-top:0 ;
-    padding-top: 0;
-    margin-top: 0;
-    height: 25rem;
-    width: 100%;
+    height: 30vh;
+    width: 20vw;
     border-radius: 5%;
     
 }
@@ -32,17 +30,27 @@
 }
 .CardArticulo{
     background-color: white;
-    height: 35rem;
-    width: 20rem;
+    height: 50vh;
+    width: 20vw;
     display: grid;
     place-items: center;
     text-align: center;
     border-radius: 0;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    transition: all 400ms ease;
+    border-radius: 25px;
+    h2{
+        color: black;
+    }
+    p{color: #6a6a6a;
+    }
 }
 .boton-compra{
     text-decoration: none;
     color: black;
     border: 2px solid black;
+    border-radius: 10px;
     padding: 1rem;
 }
 

@@ -32,7 +32,7 @@
     margin: 20px;
     border-radius: 6px;
     overflow: hidden;
-    background-color: $color-header;
+    background-color: white;
     box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
     cursor: default;
     transition: all 400ms ease;
@@ -43,8 +43,8 @@
     transform: translateY(-3%);
 }
 .img-red{
-    width: 100%;
-    height: 20rem;
+    width: 18vw;
+    height: 27vh;
 }
 .container-red{
     padding: 15px;
@@ -57,23 +57,23 @@
     h3{
         font-weight: 400;
         margin-bottom: 15px;
-        color: $color-letras;
+        color: black;
         font-size: 1.5rem;
     }
     a{
         text-decoration: none;
         display: inline-block;
         margin-top: 10px;
-        color: $color-letras;
+        color: black;
         padding: 0.5rem;
-        border: 1px solid $color-letras ;
+        border: 1px solid black ;
         border-radius: 4px;
         transition: all 400ms ease;
         box-sizing:inherit;
     }
     a:hover{
-        background-color: $color-letras;
-        color: #000000;
+        background-color: black;
+        color: $color-letras;
     }
     
 }
